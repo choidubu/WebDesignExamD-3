@@ -37,6 +37,7 @@ body {
 .wrap {
     height: 970px;
     position: relative;
+    min-width: 1320px;
 }
 
 .top {
@@ -104,7 +105,7 @@ nav>ul>li>a:focus {
 
 .menubg {
     position: absolute;
-    background: rgba(100, 100, 100, 0.5);
+    background: rgba(100, 100, 100, 0.9);
     width: calc(100% - 180px);
     height: 176px;
     top: 110px;
